@@ -1,0 +1,34 @@
+
+
+
+import React, {Component} from 'react';
+class PastProjects extends Component{
+  render(){
+      return(<section className="sect">
+          <div className="row sect__row">
+            <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 sect__one_two">
+
+
+              <ul className="">
+                <li className="sect__liexp_list"><strong>Allied Coaches</strong><br/><span className="sect__link_exp"><strong> https://alliedcoaches.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Anne Owens Nutrition </strong><br/><span className="sect__link_exp"><strong>https://anneowensnutrition.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Bits bobs and odd jobs</strong><br/><span className="sect__link_exp"><strong>https://bitsbobsandoddjobs.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Isabelle Baz Nutrition</strong><br/><span className="sect__link_exp"><strong>https://isabellebaznutrition.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Keogan Electrical</strong><br/><span className="sect__link_exp"><strong>https://keoganelectrical.ie/</strong></span></li>
+              </ul>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 sect__two_two">
+              <ul className="">
+                <li className="sect__liexp_list"><strong>Andreia Lara</strong><br/><span className="sect__link_exp"><strong>https://andreialara.com/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Summit Law</strong><br/><span className="sect__link_exp"><strong>https://summitlaw.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Darling</strong><br/><span className="sect__link_exp"><strong>http://darling.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>New Vitality</strong><br/><span className="sect__link_exp"><strong>https://newvitality.ie/</strong></span></li>
+                <li className="sect__liexp_list"><strong>Maker Design</strong><br/><span className="sect__link_exp"><strong>https://makerdesign.ie/</strong></span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      )
+    }
+  }
+  export default PastProjects

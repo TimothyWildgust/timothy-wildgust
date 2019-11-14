@@ -1,0 +1,31 @@
+/*
+ * Nav css File
+*/
+
+.Nav {
+    /* propertys here */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 800;
+}
+ul.nav.navbar-nav.text-center.ml-auto{
+  background-color: #f6eb14;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0);
+    border-color: rgba(0,0,0,0);
+}
+.navbar-light .navbar-toggler button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+@media (max-width: 767px){
+  .navbar-collapse{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 0;
+  }
+}
