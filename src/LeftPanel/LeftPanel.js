@@ -15,7 +15,7 @@ class LeftPanel extends Component{
                 basics of PHP &amp; JavaScript. <br/>
               <br/>I also have interest in UX/UI and really appreciate well designed websites and apps.&nbsp;In addition, I have experience with SEO, OpenGraph, site optimisation, image optimisation, PDF creation/alteration,
                 SVG creation and have many more skills.</p>
-              <p className="intro__position">I am currently looking<br />for a Front-End position</p>
+              <p className="intro__position">Front-End Developer <br/>& Digital Marketing Strategist</p>
 
             </section>
 
